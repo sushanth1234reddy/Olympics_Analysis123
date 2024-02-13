@@ -13,7 +13,7 @@ region_df = pd.read_csv('noc_regions.csv')
 
 df = preprocessor.preprocess(df,region_df)
 
-st.sidebar.title("Olympics-Analysis (1896-2016)")
+st.sidebar.title("Olympics-Analysis")
 st.sidebar.image("https://www.nicepng.com/png/detail/177-1776002_olympic-logo-with-sports-summer-olympic-games.png")
 user_menu = st.sidebar.radio(
     'select an option',
